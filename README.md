@@ -175,6 +175,14 @@ Conformance is checked against the web platform tests here:
 
 A slightly adapted version of the above test suite is included in this repo's `test` directory, which can generate testing code for both browser and Expo environments.
 
+### Running tests
+ - Make sure you have [Cairo](https://www.cairographics.org/) installed.
+ - Make sure you have Python installed
+ - Make sure you have the following Python libraries installed: (`pip install -r requirements.txt`)
+    - `pycairo`
+    - `yaml`
+
+
 ### Running tests in a browser
 
 Run `test/build_html.sh`, start an HTTP server in `test/collateral/html`, and then in a terminal run `node test/collateral/runSuite.js all`. Alternatively, you can just navigate to the HTML files directly in a web browser.
